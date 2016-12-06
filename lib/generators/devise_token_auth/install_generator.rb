@@ -35,7 +35,7 @@ module DeviseTokenAuth
   # Include default devise modules.
   devise :database_authenticatable, :registerable,
           :recoverable, :rememberable, :trackable, :validatable,
-          :confirmable, :omniauthable
+          :confirmable
   include DeviseTokenAuth::Concerns::User
           RUBY
           end
